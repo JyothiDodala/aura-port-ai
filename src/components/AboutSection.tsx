@@ -1,12 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
-import { Code2, Award, GitBranch, Layers } from "lucide-react";
+import { Code2, Award, Layers } from "lucide-react";
 
 const stats = [
-  { icon: Layers, label: "Projects Completed", value: 15 },
+  { icon: Layers, label: "Projects Completed", value: 5 },
   { icon: Code2, label: "Technologies Known", value: 12 },
-  { icon: Award, label: "Certifications", value: 5 },
-  { icon: GitBranch, label: "GitHub Contributions", value: 200 },
+  { icon: Award, label: "Certifications", value: 6 },
 ];
 
 const AnimatedCounter = ({ target }: { target: number }) => {
