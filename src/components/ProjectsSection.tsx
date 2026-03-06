@@ -3,32 +3,34 @@ import ScrollReveal from "./ScrollReveal";
 
 const projects = [
   {
-    title: "MERN Job Tracker",
-    description: "A full-stack job application tracking system built with the MERN stack. Features include authentication, job CRUD operations, and insightful dashboards.",
-    tags: ["React", "Node.js", "MongoDB", "Express"],
-    github: "#",
-    live: "#",
+    title: "Face Recognition Attendance System",
+    description: "Built an automated attendance system using face recognition. Implemented image processing using OpenCV and Python.",
+    tags: ["Python", "OpenCV", "Face Recognition"],
+    github: "https://github.com/JyothiDodala",
   },
   {
-    title: "Skin Disease Detection",
-    description: "Deep learning model to classify skin diseases from images using CNNs. Achieved high accuracy with transfer learning on dermatological datasets.",
-    tags: ["Python", "TensorFlow", "CNN", "Deep Learning"],
-    github: "#",
-    live: "#",
+    title: "Contact Management System",
+    description: "Developed CRUD-based contact management web application. Designed responsive UI and backend logic.",
+    tags: ["HTML", "CSS", "JavaScript", "Node.js"],
+    github: "https://github.com/JyothiDodala",
   },
   {
-    title: "Plant Disease Identification",
-    description: "CNN-based system to identify plant diseases from leaf images, helping farmers detect issues early and improve crop yield.",
-    tags: ["Python", "Keras", "CNN", "OpenCV"],
-    github: "#",
-    live: "#",
+    title: "Plant Disease Detection using Deep Learning",
+    description: "Built CNN model to classify plant diseases from images. Applied image preprocessing and model training.",
+    tags: ["Python", "Deep Learning", "CNN", "TensorFlow"],
+    github: "https://github.com/JyothiDodala",
   },
   {
-    title: "Portfolio Website",
-    description: "A futuristic, glassmorphism-themed developer portfolio built with React, TypeScript, and Tailwind CSS with smooth animations.",
-    tags: ["React", "TypeScript", "Tailwind", "Framer Motion"],
-    github: "#",
-    live: "#",
+    title: "House Price Prediction using ML",
+    description: "Implemented regression model for house price prediction. Performed data preprocessing and evaluation.",
+    tags: ["Python", "Machine Learning", "Regression"],
+    github: "https://github.com/JyothiDodala",
+  },
+  {
+    title: "Spam Email Detection",
+    description: "Built ML model to classify spam and non-spam emails. Applied NLP preprocessing techniques.",
+    tags: ["Python", "NLP", "Machine Learning"],
+    github: "https://github.com/JyothiDodala",
   },
 ];
 
@@ -68,15 +70,11 @@ const ProjectsSection = () => {
                 <div className="flex gap-4">
                   <a
                     href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Github size={16} /> Code
-                  </a>
-                  <a
-                    href={project.live}
-                    className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    <ExternalLink size={16} /> Live Demo
                   </a>
                 </div>
               </div>

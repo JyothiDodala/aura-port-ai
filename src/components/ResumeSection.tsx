@@ -14,7 +14,8 @@ const ResumeSection = () => {
               Interested in working together? Download my resume to learn more about my experience, skills, and education.
             </p>
             <a
-              href="#"
+              href="/resume/myresume.pdf"
+              download
               className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-semibold text-primary-foreground gradient-bg hover:opacity-90 transition-all duration-300 hover:shadow-lg hover:shadow-neon-cyan/20 gradient-border"
             >
               <Download size={20} />
