@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import { Code2, Award, Layers } from "lucide-react";
+import profileImg from "@/assets/profile.jpeg";
 
 const stats = [
   { icon: Layers, label: "Projects Completed", value: 5 },
