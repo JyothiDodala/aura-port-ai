@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 import { Code2, Award, Layers } from "lucide-react";
+import profileImg from "@/assets/profile.jpeg";
 
 const stats = [
   { icon: Layers, label: "Projects Completed", value: 5 },
@@ -54,14 +55,12 @@ const AboutSection = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <ScrollReveal direction="left">
-            <div className="glass rounded-2xl p-8 neon-glow aspect-square max-w-sm mx-auto flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-32 h-32 rounded-full gradient-bg mx-auto mb-4 flex items-center justify-center">
-                  <span className="font-display text-4xl font-bold text-primary-foreground">JD</span>
-                </div>
-                <p className="font-display text-xl font-semibold text-foreground">Jyothi Dodali</p>
-                <p className="text-primary text-sm font-mono">Full Stack Developer</p>
-              </div>
+            <div className="glass rounded-2xl p-8 neon-glow aspect-square max-w-sm mx-auto flex items-center justify-center overflow-hidden">
+              <img
+                src={profileImg}
+                alt="Jyothi Dodali"
+                className="w-full h-full object-cover rounded-xl"
+              />
             </div>
           </ScrollReveal>
 
