@@ -10,6 +10,7 @@ import appreciation from "@/assets/certificates/appreciation.jpg";
 import genAiMega from "@/assets/certificates/gen-ai-mega.jpg";
 import devFoundations from "@/assets/certificates/developer-foundations.jpg";
 import staticWebsite from "@/assets/certificates/static-website.jpg";
+import aiRpaWorkshop from "@/assets/certificates/ai-rpa-workshop.jpg";
 
 const categories = ["All", "Workshops", "Achievements", "Courses"] as const;
 type Category = (typeof categories)[number];
@@ -23,6 +24,7 @@ const certificates = [
   { name: "Certificate of Appreciation", category: "Achievements" as Category, image: appreciation, issuer: "NxtWave", date: "2023" },
   { name: "Developer Foundations – Git", category: "Courses" as Category, image: devFoundations, issuer: "NxtWave – CCBP 4.0 Academy", date: "Sep 2025" },
   { name: "Build Your Own Static Website", category: "Courses" as Category, image: staticWebsite, issuer: "NxtWave – CCBP 4.0 Academy", date: "Oct 2023" },
+  { name: "AI and Robotic Process Automation Workshop", category: "Workshops" as Category, image: aiRpaWorkshop, issuer: "NxtWave", date: "Feb 2026" },
 ];
 
 const CertificationsSection = () => {
