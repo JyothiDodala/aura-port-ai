@@ -97,6 +97,8 @@ const ContactSection = () => {
                   <a
                     key={s.label}
                     href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-all duration-300 group"
                   >
                     <div className="w-10 h-10 rounded-lg glass flex items-center justify-center group-hover:neon-glow transition-all">

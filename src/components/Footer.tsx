@@ -42,6 +42,8 @@ const Footer = () => {
               <a
                 key={i}
                 href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <s.icon size={18} />
