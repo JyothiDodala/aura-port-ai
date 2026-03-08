@@ -3,10 +3,10 @@ import { Send, Linkedin, Github, Twitter, Mail } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
 const socials = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "mailto:jyothidodali@example.com", label: "Email" },
+  { icon: Linkedin, href: "https://linkedin.com/in/jyothi-dodali-38b679259", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/JyothiDodala", label: "GitHub" },
+  { icon: Twitter, href: "https://twitter.com/", label: "Twitter" },
+  { icon: Mail, href: "mailto:djyothiyadav487@gmail.com", label: "Email" },
 ];
 
 const ContactSection = () => {
