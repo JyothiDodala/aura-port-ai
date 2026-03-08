@@ -9,6 +9,18 @@ const projects = [
     github: "https://github.com/JyothiDodala/interviewai-job-tracker",
   },
   {
+    title: "Purple Plate – Food E-Commerce App",
+    description: "A modern, interactive food e-commerce web app for browsing and ordering food items. Features real-time updates, smooth animations, and a vibrant purple-themed UI.",
+    tags: ["React", "TypeScript", "Vite", "Shadcn UI"],
+    github: "https://github.com/JyothiDodala/purple-plate",
+  },
+  {
+    title: "DevInsight – Developer Analytics",
+    description: "A full-stack app that analyzes GitHub profiles with AI-powered insights. Includes developer scoring, skills extraction, contribution analytics, and resume tips.",
+    tags: ["React", "Node.js", "MongoDB", "GitHub API"],
+    github: "https://github.com/JyothiDodala/developeranalytics",
+  },
+  {
     title: "Face Recognition Attendance System",
     description: "Built an automated attendance system using face recognition. Implemented image processing using OpenCV and Python.",
     tags: ["Python", "OpenCV", "Face Recognition"],
