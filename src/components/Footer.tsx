@@ -10,10 +10,10 @@ const Footer = () => {
   ];
 
   const socials = [
-    { icon: Linkedin, href: "#" },
-    { icon: Github, href: "#" },
-    { icon: Twitter, href: "#" },
-    { icon: Mail, href: "mailto:jyothidodali@example.com" },
+    { icon: Linkedin, href: "https://linkedin.com/in/jyothi-dodali-38b679259" },
+    { icon: Github, href: "https://github.com/JyothiDodala" },
+    { icon: Twitter, href: "https://twitter.com/" },
+    { icon: Mail, href: "mailto:djyothiyadav487@gmail.com" },
   ];
 
   return (
