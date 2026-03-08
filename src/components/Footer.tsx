@@ -10,10 +10,10 @@ const Footer = () => {
   ];
 
   const socials = [
-    { icon: Linkedin, href: "#" },
-    { icon: Github, href: "#" },
-    { icon: Twitter, href: "#" },
-    { icon: Mail, href: "mailto:jyothidodali@example.com" },
+    { icon: Linkedin, href: "https://linkedin.com/in/jyothi-dodali-38b679259" },
+    { icon: Github, href: "https://github.com/JyothiDodala" },
+    { icon: Twitter, href: "https://twitter.com/" },
+    { icon: Mail, href: "mailto:djyothiyadav487@gmail.com" },
   ];
 
   return (
@@ -42,6 +42,8 @@ const Footer = () => {
               <a
                 key={i}
                 href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <s.icon size={18} />
