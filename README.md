@@ -1,84 +1,59 @@
-# CareerPilot – AI Interview Prep & Job Tracker
+# Personal Portfolio Website
 
-CareerPilot is a modern MERN stack web application designed to help students and developers track job applications and prepare for technical interviews efficiently.
+This is my personal portfolio website created to showcase my projects, technical skills, and development experience. The portfolio highlights my work in web development, artificial intelligence, and software engineering.
 
-The platform provides tools for managing job applications, practicing interview questions, and monitoring preparation progress through a user-friendly dashboard.
+The goal of this portfolio is to provide recruiters and developers with a clear overview of my technical abilities, projects, and achievements.
 
 ## Features
 
-- User authentication (Register / Login)
-- Job application tracker
-- Interview preparation section
-- AI interview question generator
-- User profile management
-- Interview preparation progress tracking
-- Dashboard analytics
-- Responsive and modern UI
+- Modern and responsive user interface
+- About me section with professional introduction
+- Projects showcase with descriptions
+- Skills and technologies section
+- Contact section for communication
+- Clean and professional design
+- Mobile-friendly layout
 
 ## Tech Stack
 
 Frontend:
-- React.js
-- Tailwind CSS
+React.js  
+Tailwind CSS  
+JavaScript  
+HTML  
+CSS  
 
-Backend:
-- Node.js
-- Express.js
+Development Tools:
+Lovable AI  
+GitHub  
 
-Database:
-- MongoDB
+## Sections Included
 
-Other Technologies:
-- REST API
-- JWT Authentication
+Home:
+Displays a short introduction and professional headline.
 
-## Project Modules
+About:
+Provides information about my background, education, and interests in technology.
 
-Authentication:
-Secure login and registration system for users.
+Projects:
+Showcases my development projects including web development and AI-based applications.
 
-Job Application Tracker:
-Users can add job applications, edit application details, delete applications, and track application status.
+Skills:
+Highlights technical skills such as programming languages, frameworks, and tools.
 
-Interview Preparation:
-Provides technical interview questions from different categories such as JavaScript, React, Node.js, and Data Structures.
+Contact:
+Allows visitors and recruiters to connect with me.
 
-AI Interview Question Generator:
-Users can enter a job role and the system generates relevant interview questions.
+## Purpose of the Project
 
-User Profile:
-Users can manage their profile including skills, professional summary, and social links.
-
-Dashboard:
-Shows statistics such as total jobs applied, interviews scheduled, offers received, and questions practiced.
-
-## Installation
-
-1. Clone the repository
-git clone https://github.com/yourusername/careerpilot.git
-
-2. Navigate to the project folder
-cd careerpilot
-
-3. Install dependencies
-npm install
-
-4. Run the application
-npm start
-
-## Future Improvements
-
-- AI mock interview simulator
-- Resume analyzer
-- Job recommendation system
-- Email notifications for interviews
-- Advanced analytics dashboard
-
-## Project Purpose
-
-This project was developed to help students organize their job search process and improve interview preparation using modern web technologies.
+The purpose of this portfolio is to present my skills and projects in a professional way and create a strong online presence for job opportunities in software development.
 
 ## Author
 
-Jyothi Dodali
-B.Tech – Computer Science Engineering (AI & ML)ovable.dev/features/custom-domain#custom-domain)
+Jyothi Dodala  
+B.Tech – Computer Science Engineering (AI & ML)
+
+## Connect With Me
+
+GitHub: (https://github.com/JyothiDodala)  
+LinkedIn:(https://www.linkedin.com/in/jyothi-dodali-38b679259).dev/features/custom-domain#custom-domain)
