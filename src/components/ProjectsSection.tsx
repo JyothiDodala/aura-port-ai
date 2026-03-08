@@ -32,12 +32,6 @@ const projects = [
     tags: ["Python", "NLP", "Machine Learning"],
     github: "https://github.com/JyothiDodala/spam-email-detection",
   },
-  {
-    title: "Crypto Currency Tracker",
-    description: "A cryptocurrency tracking application to monitor real-time prices and trends of various digital currencies.",
-    tags: ["JavaScript", "API", "Web App"],
-    github: "https://github.com/JyothiDodala/cryptoCurrencyTracker",
-  },
 ];
 
 const ProjectsSection = () => {
