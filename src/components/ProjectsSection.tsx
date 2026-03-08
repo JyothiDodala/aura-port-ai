@@ -3,6 +3,12 @@ import ScrollReveal from "./ScrollReveal";
 
 const projects = [
   {
+    title: "InterviewAI Job Tracker",
+    description: "A smart job application tracker built with React, TypeScript, and Tailwind CSS. Helps users manage and track their job applications efficiently.",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    github: "https://github.com/JyothiDodala/interviewai-job-tracker",
+  },
+  {
     title: "Face Recognition Attendance System",
     description: "Built an automated attendance system using face recognition. Implemented image processing using OpenCV and Python.",
     tags: ["Python", "OpenCV", "Face Recognition"],
