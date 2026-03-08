@@ -21,6 +21,12 @@ const projects = [
     github: "https://github.com/JyothiDodala/developeranalytics",
   },
   {
+    title: "Aura Port AI – Personal Portfolio",
+    description: "A modern, responsive personal portfolio website to showcase projects, skills, and achievements. Built with React, Tailwind CSS, and Lovable AI.",
+    tags: ["React", "Tailwind CSS", "JavaScript", "Lovable AI"],
+    github: "https://github.com/JyothiDodala/aura-port-ai",
+  },
+  {
     title: "Face Recognition Attendance System",
     description: "Built an automated attendance system using face recognition. Implemented image processing using OpenCV and Python.",
     tags: ["Python", "OpenCV", "Face Recognition"],
