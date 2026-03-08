@@ -10,6 +10,7 @@ import appreciation from "@/assets/certificates/appreciation.jpg";
 import genAiMega from "@/assets/certificates/gen-ai-mega.jpg";
 import devFoundations from "@/assets/certificates/developer-foundations.jpg";
 import staticWebsite from "@/assets/certificates/static-website.jpg";
+import aiRpaWorkshop from "@/assets/certificates/ai-rpa-workshop.jpg";
 
 const categories = ["All", "Workshops", "Achievements", "Courses"] as const;
 type Category = (typeof categories)[number];
