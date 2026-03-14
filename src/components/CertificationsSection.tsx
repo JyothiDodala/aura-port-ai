@@ -27,6 +27,8 @@ const certificates = [
   { name: "Developer Foundations – Git", category: "Courses" as Category, image: devFoundations, issuer: "NxtWave – CCBP 4.0 Academy", date: "Sep 2025" },
   { name: "Build Your Own Static Website", category: "Courses" as Category, image: staticWebsite, issuer: "NxtWave – CCBP 4.0 Academy", date: "Oct 2023" },
   { name: "AI and Robotic Process Automation Workshop", category: "Workshops" as Category, image: aiRpaWorkshop, issuer: "NxtWave", date: "Feb 2026" },
+  { name: "JavaScript Essentials", category: "Courses" as Category, image: jsEssentials, issuer: "NxtWave – CCBP 4.0 Academy", date: "May 2025" },
+  { name: "Responsive Web Design Using Flexbox", category: "Courses" as Category, image: responsiveWebDesign, issuer: "NxtWave – CCBP 4.0 Academy", date: "Aug 2025" },
 ];
 
 const CertificationsSection = () => {
