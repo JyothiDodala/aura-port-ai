@@ -82,54 +82,6 @@ const AboutSection = () => {
           </ScrollReveal>
         </div>
 
-        {/* Education Timeline */}
-        <ScrollReveal>
-          <div className="mb-20 max-w-3xl mx-auto">
-            <h4 className="font-display text-xl font-bold mb-8 text-center text-foreground">
-              Education <span className="gradient-text">Timeline</span>
-            </h4>
-            <div className="relative border-l border-primary/20 pl-6 md:pl-8 space-y-10 ml-4 md:ml-0">
-              {/* Graduate Program */}
-              <div className="relative">
-                <div className="absolute -left-[31px] md:-left-[35px] top-1.5 w-4 h-4 md:w-5 md:h-5 rounded-full bg-primary border-4 border-background shadow-[0_0_10px_rgba(var(--primary),0.5)]" />
-                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-1">
-                  <h5 className="font-display text-lg font-bold text-foreground">
-                    Graduate Program (M.S. / M.Tech)
-                  </h5>
-                  <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20 w-fit">
-                    2025 - Present
-                  </span>
-                </div>
-                <p className="text-sm text-muted-foreground font-medium mt-1">
-                  Computer Science & Engineering (AI & ML)
-                </p>
-                <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
-                  Focusing on advanced neural networks, intelligent web applications, large-scale systems, and interactive UI engineering with cutting-edge tech stacks.
-                </p>
-              </div>
-
-              {/* Undergraduate Program */}
-              <div className="relative">
-                <div className="absolute -left-[31px] md:-left-[35px] top-1.5 w-4 h-4 md:w-5 md:h-5 rounded-full bg-secondary border-4 border-background" />
-                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-1">
-                  <h5 className="font-display text-lg font-bold text-foreground/90">
-                    Bachelor of Technology (B.Tech)
-                  </h5>
-                  <span className="text-xs font-semibold px-3 py-1 rounded-full bg-secondary text-muted-foreground border border-border w-fit">
-                    2021 - 2025
-                  </span>
-                </div>
-                <p className="text-sm text-muted-foreground font-medium mt-1">
-                  Computer Science & Engineering (AI & ML)
-                </p>
-                <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
-                  Acquired extensive hands-on experience in full-stack web development and AI pipelines. Built foundational mastery in data structures, algorithms, and machine learning models.
-                </p>
-              </div>
-            </div>
-          </div>
-        </ScrollReveal>
-
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {stats.map((stat, i) => (
             <ScrollReveal key={stat.label} delay={i * 100}>
