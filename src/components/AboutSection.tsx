@@ -70,7 +70,7 @@ const AboutSection = () => {
                 A passionate developer building the future
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4 text-sm md:text-base">
-                I'm a final-year B.Tech Computer Science & Engineering (AI & ML) student with a deep passion for building intelligent web applications that make a real impact.
+                I'm a B.Tech Computer Science & Engineering (AI & ML) graduate student with a deep passion for building intelligent web applications that make a real impact.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4 text-sm md:text-base">
                 My journey spans across Full Stack Development, Artificial Intelligence, and Problem Solving. I love turning complex problems into elegant, scalable solutions.
